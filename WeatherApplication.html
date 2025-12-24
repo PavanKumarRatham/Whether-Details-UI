@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApplication</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="WeatherApplication.css">
+    <script src="WeatherApplication.js" defer></script>
+</head>
+<body>
+    <div id="weather_information_container">
+        <div id="search_container">
+            <input type="text" name="cityName" id="city_name_input_box" placeholder="Search City">
+            <span id="search_icon_container"><i class="fa-solid fa-magnifying-glass"></i></span>
+        </div>
+        <div id="city_name_icon_container">
+            <h1 id="city_name">___</h1>
+            <span id="location_icon_container"><i class="fa-solid fa-location-dot"></i></span>
+        </div>
+        <div id="image_temperature_container">
+            <span id="weather_status_image_container"><img  alt="" id="weather_image_element"></span>
+            <h1 id="weather_status_name"></h1>
+            <h1 id="temperature_container"><span id="temperature_value"></span><span id="degree_celcius_container"><sup>o</sup>c</span></h1>
+        </div>
+        <div id="humidity_windstatus_container">
+            <div id="humidity_information_container">
+                <span id="humidity_icon_container"><i class="fa-solid fa-droplet humid_wind_icons"></i></span>
+                <h1 id="humdity_name">Humidity</h1>
+                <h1 id="humidity_value"></h1>
+            </div>
+            <div id="wind_information_container">
+                <span id="windstatus_icon_container"><i class="fa-solid fa-wind humid_wind_icons"></i></span>
+                <h1 id="winstatus_name">WindStatus</h1>
+                <h1 id="wind_value"></h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
