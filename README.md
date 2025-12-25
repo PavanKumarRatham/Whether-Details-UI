@@ -23,5 +23,5 @@ A simple and interactive **Weather Application** built using **HTML, CSS, and Ja
 - JavaScript (ES6)
 - OpenWeatherMap API
 - Font Awesome
-![Weather App Screenshot](screenshots/weather-app.png)
+
 
